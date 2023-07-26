@@ -13,7 +13,7 @@ const PostsList = () => {
     ))
 
     return (
-        <section>
+        <section className={style.section}>
             <h2>Posts</h2>
             {renderPosts}
         </section>
