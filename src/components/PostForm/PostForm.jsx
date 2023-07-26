@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { postAdded } from "../../features/posts/postsSlice";
 import { nanoid } from "@reduxjs/toolkit/dist";
 
-// haciendo postform
+//haciendo postform
 const PostForm = () => {
   const dispatch = useDispatch();
 
