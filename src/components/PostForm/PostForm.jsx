@@ -14,7 +14,7 @@ const PostForm = () => {
     const onContentChanged = (event) => setContent(event.target.value)
 
     const submitHandler = () => {
-        if(title & content) {
+        if(title && content) {
             dispatch(
                 postAdded({
                     id: nanoid(),
@@ -22,6 +22,8 @@ const PostForm = () => {
                     content
                 })
             )
+            setTitle("");
+            setContent("");
         }
     }
     return(
@@ -41,8 +43,10 @@ const PostForm = () => {
                 name="content"
                 value={content}
                 onChange={onContentChanged}/>
-                <button type="button" onSubmit={submitHandler}>Save Post</button>
+                <button type="button" onClick={submitHandler}>Save Post</button>
             </form>
         </section>
     )
 }
+
+export default PostForm;
