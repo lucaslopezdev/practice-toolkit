@@ -1,19 +1,18 @@
-import './App.css'
-import PostForm from './components/PostForm/PostForm'
+import "./App.css";
+import PostForm from "./components/PostForm/PostForm";
 
-import PostsList from './components/PostsList/PostsList'
+import PostsList from "./components/PostsList/PostsList";
 
 function App() {
-
-  const saludo = 'Hola lucas! pruebo la rama feature';
+  const saludo = "Hola lucas! pruebo la rama feature";
 
   return (
     <div>
-      <h1>Canaliza el chi maestro</h1>
-      <PostForm/>
-      <PostsList/>
+      <h3>Mi chi está canalizado</h3>
+      <PostForm />
+      <PostsList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
