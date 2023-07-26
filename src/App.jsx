@@ -8,7 +8,6 @@ function App() {
 
   return (
     <div>
-      <h3>Mi chi está canalizado</h3>
       <PostForm />
       <PostsList />
     </div>
