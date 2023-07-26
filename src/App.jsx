@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div>
+      <h1>Canaliza el chi maestro</h1>
       <PostForm/>
       <PostsList/>
     </div>
