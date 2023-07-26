@@ -16,6 +16,11 @@ const initialState = [
     title: "Learning good practices with Dave Gray",
     content: "I've heard good things",
   },
+  {
+    id: "4",
+    title: "Learning good practices with Midudev",
+    content: "I've heard good things",
+  },
 ];
 
 const postsSlice = createSlice({
