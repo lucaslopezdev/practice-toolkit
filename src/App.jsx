@@ -5,6 +5,8 @@ import PostsList from './components/PostsList/PostsList'
 
 function App() {
 
+  const saludo = 'Hola lucas! canaliza el chi';
+
   return (
     <div>
       <PostForm/>
