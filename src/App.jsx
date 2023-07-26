@@ -5,7 +5,7 @@ import PostsList from './components/PostsList/PostsList'
 function App() {
 
   return (
-    <div>
+    <div className='div'>
       <PostsList/>
     </div>
   )
