@@ -5,7 +5,7 @@ import PostsList from './components/PostsList/PostsList'
 
 function App() {
 
-  const saludo = 'Hola lucas! pruebo si se ven los cambios en un repo clonado';
+  const saludo = 'Hola lucas! pruebo la rama feature';
 
   return (
     <div>
