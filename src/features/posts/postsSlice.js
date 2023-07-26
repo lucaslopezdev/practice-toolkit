@@ -11,6 +11,11 @@ const initialState = [
     title: "Slices...",
     content: "The more I say slice, the more I want pizza.",
   },
+  {
+    id: "3",
+    title: "Learning good practices with Dave Gray",
+    content: "I've heard good things",
+  },
 ];
 
 const postsSlice = createSlice({
